@@ -42,3 +42,22 @@ var c = a+b;
 console.log(a);
 console.log(b);
 console.log(c);
+
+// *** MCQ 
+
+var namefrist;
+namefrist = 37;
+document.write(namefrist); 
+
+// var frist-Name;
+// namefrist = 37;
+// document.write(namefrist);   {Wrong Answer}
+
+var name$1st;
+name$1st = 37;
+document.write(name$1st);
+
+var frist_name;
+frist_name = 37;
+document.write(frist_name);
+
