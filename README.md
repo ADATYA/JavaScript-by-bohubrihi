@@ -48,7 +48,9 @@
     5 String and Array Iteration   
     6 For-in and For-of  
     7 Exercise and Solution
-    
+
+![image](https://github.com/ADATYA/JavaScript-by-bohubrihi/assets/97549431/327916d0-975e-4611-8458-5734f609cbc4)
+   
 ### Functions:
     1 What is function 
     2 Parameters and Return Value 
@@ -58,11 +60,15 @@
     6 Math and Date Objects 
     7 Global and Local Scope with let and const (ES6)    
     8 JavaScript Quiz: Functions
-    
+
+![image](https://github.com/ADATYA/JavaScript-by-bohubrihi/assets/97549431/02678ff9-1479-4672-9942-fcd9d2a38371)
+
 ### Object Oriented Programming:
     1 JavaScript Classes (ES6)
     2 Sub-Classes 
     3 Static Function
+    
+![image](https://github.com/ADATYA/JavaScript-by-bohubrihi/assets/97549431/2bcf6308-458e-4d65-9e4c-fc912116bffe)
     
 ### Document Object Model: ***
      1 What is DOM
