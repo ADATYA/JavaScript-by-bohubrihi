@@ -1,7 +1,12 @@
 # Modern JavaScript Programming 
 ![image](https://github.com/ADATYA/JavaScript-by-bohubrihi/assets/97549431/238e5cc4-edb9-4865-9d1a-2221587d0273)
 
-  ### variable:
+  ### Source : 
+               - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+               - https://www.w3schools.com/js/default.asp 
+               
+ 
+  ### Variables and Constants:  
      * Javascript Variables Part 1
      * Javascript Variables Part 2
      * Javascript Constants and Keywords
