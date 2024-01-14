@@ -50,7 +50,7 @@ isNaN(x);
                                 // XXXX //
 
 
-// *** Numbers ***
+//                                              ***  Topic-1 Numbers ***
 
 var s;
 s = 7;
@@ -112,7 +112,7 @@ console.log(y);
 y=0xCC;
 console.log(y);
 
-//*** To String *** 
+// To String 
 var n;
 n= 123;
 n.toString()
@@ -149,9 +149,7 @@ console.log(a);
 a = p.toPrecision(4);
 console.log(a);
 
-
 // String to Number :
-
 var c;
 c = 1234;
 c.toString();
@@ -180,3 +178,137 @@ console.log(r);
 var u = 6;
 isNaN(u);
 console.log(u);
+
+                                        // *** Topic-2 String *** 
+
+
+"Bikrom Roy" 
+'Bikrom roy'
+
+"bikrom '''''' roy" 
+'bikrom """"" roy'
+
+var x = "Hello'''''World"
+console.log(x);
+
+var y = 'Hello"""""""World'
+console.log(y);
+
+var h = "Bikrom \ Sporsho"
+console.log(h);
+
+var h = "Bikrom \t Sporsho"
+console.log(h);
+
+var h = "Bikrom \t\t Sporsho"
+console.log(h);
+
+var h = "Bikrom \nSporsho"
+console.log(h);
+
+var a = "Bikrom" 
+var b = " Sporsho"
+var c = a+b
+console.log(c);
+console.log(c.length) ;
+
+var h = "Bikrom \n Sporsho"
+console.log(h.length);
+
+var j = "Bikrom \n Sporsho"
+console.log(j.length);
+
+var j = "Bikrom"
+console.log(j[0]);
+console.log(j[1]);
+console.log(j[2]);
+console.log(j[3]);
+console.log(j[4]);
+console.log(j[5]);
+
+
+var j = "Bikrom"
+console.log(j.toLowerCase);
+
+var j = "Sporsho"
+console.log(j.toUpperCase);
+
+var j = "Sporsho"
+g = j.trim()
+console.log();
+
+var j = "Sporsho"
+g = j.slice(1,5)
+console.log(g);
+
+var j = "Sporsho"
+g = j.slice(-5,-1)
+console.log(g);
+
+var p = "Sporsho"
+p.substr(2,4)
+console.log(p);
+
+var p = "Bikrom"
+p.replace("rom" , "soo")
+console.log(p.replace("rom" , "soo"));
+
+var p = "ABCD"
+p.concat("rom" , "soo")
+console.log(p.concat(" rom" , " soo"));
+
+
+                                                    // *** Topic-3 Booleans*** 
+
+
+var w;
+w = 2+2;
+console.log(Boolean(w));
+
+var o;
+console.log(Boolean(o));
+
+// undefined, null, NaN are always False..
+
+
+                                                // *** Topic-4 Array part-01*** 
+
+//Collection of Items.   
+
+var country = ["BD","IND","USA","GERMANY","CANADA"]
+console.log(country);
+
+var country = ["BD","IND","USA","GERMANY","CANADA"]
+console.log(country[0]);
+console.log(country[3]);
+console.log(country[2]);
+console.log(country[1]="Poland");
+
+console.log(country.length);
+
+console.log(country[5]="Norway");
+console.log(country);
+
+// Push sit on the last 
+
+console.log(country.push("Japan","Africa"));
+console.log(country);
+
+// Pop sit on the last 
+
+console.log(country.pop());
+console.log(country);
+
+// Shift are removing value from first.
+
+console.log(country.shift());
+console.log(country);
+
+// Unshift are back (add) value from first.
+
+console.log(country.unshift("BANGLADESH"));
+console.log(country);
+
+
+                                                            // *** Topic-4 Array part-02*
+
