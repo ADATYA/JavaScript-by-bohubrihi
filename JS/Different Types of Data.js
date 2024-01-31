@@ -312,3 +312,19 @@ console.log(country);
 
                                                             // *** Topic-4 Array part-02*
 
+var x = "Bangladesh"
+var y = x.split("","\n")
+console.log(y)
+
+var x = "I love my family"
+var y = x.split("m")
+console.log(y)
+
+
+var x = "I love my family"
+var y = x.toString("m")
+console.log(y)
+
+
+                                                        // *** Topic-5 Object //
+
