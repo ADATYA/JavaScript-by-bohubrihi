@@ -328,3 +328,9 @@ console.log(y)
 
                                                         // *** Topic-5 Object //
 
+
+  var a = "100"+ 56  
+  document.write(a)  
+  
+  var a = {}
+  console.log(a.name)
