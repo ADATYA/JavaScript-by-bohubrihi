@@ -121,3 +121,120 @@ var arr_sqr = numbers.map(function(item){
 
 console.log(arr_res);
 console.log(arr_sqr);
+
+
+
+       // Topic 5: Object Methods
+
+
+let person = {fname: "Bikrom",lname:"Roy",
+DOB:"7 Nov 2002",  //number , string, data,array,object
+
+
+
+fullname: function(){ //Method
+    return `${this.fname} ${this.lname}`;
+}
+
+
+}
+
+console.log(person.fname);
+console.log(person.fullname())
+
+
+// Topic 06 : Math and Date Objects
+
+ // Math Object
+ let val;
+
+ val = Math.PI;
+ val = Math.E;
+ val = Math.round(23.5);
+ val = Math.ceil(3.2);
+ val = Math.floor(3.9);
+ val = Math.sqrt(81);
+ val = Math.abs(-56);
+ val = Math.pow(2, 8);
+ val = Math.min(2,3,1,0,-8);
+ val = Math.max(-1,2,4,5);
+ val = Math.random();
+ 
+ val = Math.floor(Math.random() * 20 + 1);
+ 
+ 
+ 
+ console.log(val);
+
+ console.log("\n");
+
+ // Date Object
+
+
+let today = new Date();
+
+val = today;
+val = today.toString();
+
+let birthday = new Date('7-11-2002 8:25:00');
+birthday = new Date('November 7 2002');
+birthday = new Date('7/11/2002');
+val = birthday;
+val = today.getMonth(); // Start from 0
+val = today.getDate();
+val = today.getDay();
+val = today.getFullYear();
+val = today.getHours();
+val = today.getMinutes();
+val = today.getSeconds();
+val = today.getMilliseconds();
+val = today.getTime();
+
+// timestamp -> amount of second past since Jan 1st 1970
+
+birthday.setMonth(0);
+birthday.setDate(12);
+birthday.setFullYear(1996);
+birthday.setHours(3);
+
+console.log(val);
+console.log(birthday);
+
+
+// Topic 07: Global and Local Scope with let and const (ES6)
+
+// Global Scope
+var a = 1;
+let b = 2;
+const c = 3;
+
+
+console.log(`Global Scope: `, a, b, c);
+
+function test() {
+    var a = 4;
+    let b = 5;
+    const c = 6;
+    console.log(`Functions Scope: `, a, b ,c);
+}
+
+test();
+
+console.log(`Global Scope: `, a, b, c);
+
+if (true) {
+    var a = 7;
+    let b = 8;
+    const c = 9;
+    console.log(`If Scope: ` , a, b, c);
+}
+
+console.log(`Global Scope: `, a, b, c);
+
+
+for (let a = 0; a <10; a ++) {
+    console.log(`Loop: `, a);
+}
+
+
+console.log(`Global Scope: `, a, b, c);
