@@ -1,4 +1,6 @@
-![image](https://github.com/ADATYA/JavaScript-by-bohubrihi/assets/97549431/238e5cc4-edb9-4865-9d1a-2221587d0273)
+![image](https://github.com/ADATYA/JavaScript-by-bohubrihi/assets/97549431/73ea7f5c-967f-4365-81aa-47cb3dcda011)
+
+
 # Modern JavaScript Programming  
   ### Source : 
                - https://developer.mozilla.org/en-US/docs/Web/JavaScript
