@@ -1,0 +1,9 @@
+{
+"persons": [
+    {"name": "Bikrom" , "age":22,"hometown":"Natore","married" : false},
+    {"name": "Bireswer" , "age":76,"hometown":"Natore","married" : true},
+    {"name": "Namita" , "age":50,"hometown":"Natore","married" : true},
+    {"name": "Ankita" , "age":18,"hometown":"Natore","married" : false},
+    {"name": "Sporsho" , "age":21,"hometown":"Mymenshing","married" : false},
+]
+}
