@@ -3,31 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-    <!-- Add a scaliton frrom website and praper for project -->
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <title>Project 01</title>
-
 </head>
 <body>
-   
+    
     <div class="container">
-        <h3>Task List</h3>
+        <h4>Task List</h4>
         <form id="task_form">
-            <input type="text" id="new_task"
-            placeholder = "New Task">
-            <input type="submit" value = "Add Text">
+            <input type="text" id="task_list" placeholder="Task List">
+            <input type="submit" value="Add Task">
         </form>
-
         <hr>
-        <h4>Task</h4>
-        <input type="text" id="task_filter" placeholder="Search Tasks">
-        <ul id="tasks">
-
-        </ul>
-        <button id="clear_task_button">Clear Tasks</button>
+        <h4>Tasks</h4>
+        <input type="text" id="task_filter" placeholder="Task Filter">
+        <ul id="tasks"></ul>
+        <button id="clear_task_btn">Clear Tasks</button>
     </div>
 
     <script src="/Project 01/script.js"></script>

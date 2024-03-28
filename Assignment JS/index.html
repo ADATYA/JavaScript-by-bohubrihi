@@ -2,34 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <style>
-        /* Basic styling for readability */
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-        }
-        #products, #cart {
-            list-style: none;
-            padding: 0;
-        }
-        #products li, #cart li {
-            margin: 10px 0;
-            display: flex;
-            justify-content: space-between;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Product List</h1>
-    <ul id="products">
+    <div class="container">
+        <h1>Product List</h1>
+        <ul class="products">
+            <li class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>Price: $100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>Price: $200</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h2>Product 3</h2>
+                <p>Price: $300</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </li>
         </ul>
-
-    <h1>Shopping Cart</h1>
-    <ul id="cart"></ul>
-
-    <script src="/Assignment JS/script.js">
-       
-    </script>
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul class="cart-items">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
