@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#instructions {
+    font-weight: bold;
+}
+
+#guess,
+#result {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+#guess {
+    width: 100px;
+}
+
+#result {
+    font-weight: bold;
+    color: #000;
+}
