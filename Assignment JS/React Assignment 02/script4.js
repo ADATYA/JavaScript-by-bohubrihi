@@ -1,0 +1,2 @@
+function RoomList({ rooms, onBookRoom }) {
+}
