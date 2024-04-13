@@ -1,0 +1,2 @@
+expo init book-review-app
+npx create-react-native-app book-review-app

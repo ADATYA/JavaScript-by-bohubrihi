@@ -1,0 +1,2 @@
+expo init expense-manager
+npx create-react-native-app expense-manager
