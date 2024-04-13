@@ -17,3 +17,7 @@ document.write(`\n`);
 
 let BMW = cars[0];
 document.write(BMW);
+
+
+let len = cars.length;
+document.getElementById('demo')

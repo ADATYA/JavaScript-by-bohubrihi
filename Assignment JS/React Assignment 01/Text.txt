@@ -1,0 +1,22 @@
+npx create-react-app photo-gallery-app.
+
+cd photo-gallery-app
+
+npm install axios
+
+npm install json-server
+json-server --watch data/db.json --port=3000
+
+{
+  "photos": [
+    {
+      "id": 1,
+      "category": "Nature",
+      "imageUrl": "https://example.com/image1.jpg",
+      "feedback": []
+    },
+    // ... more photos
+  ]
+}
+
+
